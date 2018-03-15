@@ -1,5 +1,5 @@
 # Site settings 配置站点
-title: '张益强的独立博客'
+title: 'coder-zyq blog'
 description: '昵称盖强，伪极客/大三考研党，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
 keyword: '张益强, 张益强的独立博客, 数据库，前端博客, 机器学习, python, 数据挖掘, 设计'
 url: 'https://coder-zyq.github.io' # your host
@@ -19,7 +19,7 @@ footer:
 # Author 配置博主信息
 author: 'coder-zyq'
 nickname: '傻墙'
-bio: '热爱技术&设计，简单乐观爱创造'
+bio: '偶尔丧偶尔动力满满，希望有无数的DDL'
 avatar: '/assets/img/t1.jpg'
 
 # Search
