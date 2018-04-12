@@ -1,7 +1,7 @@
 # Site settings 配置站点
 title: 'coder-zyq blog'
 description: '昵称盖强，伪极客/大三考研党，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: '张益强, 张益强的独立博客, 数据库，前端博客, 机器学习, python, 数据挖掘, 设计'
+keyword: '张益强, 机器学习, python, 数据挖掘,'
 url: 'https://coder-zyq.github.io' # your host
 
 # if you don't need baseurl, you should leave this value blank.
@@ -14,11 +14,11 @@ nav:
 
 # Footer
 footer:
-  since: 2017
+  since: 2018
 
 # Author 配置博主信息
 author: 'coder-zyq'
-nickname: '傻墙'
+nickname: 'cyqiang'
 bio: '偶尔丧偶尔动力满满，希望有无数的DDL'
 avatar: '/assets/img/t1.jpg'
 
@@ -56,7 +56,7 @@ social-share: true
 social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
 
 # theme color 主题皮肤
-theme-color: 'default'  # pink or default
+theme-color: 'pink'  # pink or default
 
 # Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
 postPatterns: 'circuitBoard'
