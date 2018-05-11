@@ -1,16 +1,20 @@
-# batch Normalization 学习
-
 ---
 layout: post
+
 title: 'batch Normalization 学习'
+
 subtitle: '15331404 张益强'
+
 date: 2018-03-10
+
 categories: tensorflow datamining
+
 cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJmUnN6ur0wCWy1Nb_U_v4GN4CbryYxmmRA7G5QDMdeZSP0-v0'
+
 tags: datamining tensorflow
 ---
 
-
+# batch Normalization 学习
 
 ## 1. 背景意义
 讲解2015年非常值得学习的一篇文献《Batch Normalization: Accelerating Deep Network Training by  Reducing Internal Covariate Shift》
