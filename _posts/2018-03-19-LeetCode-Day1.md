@@ -4,7 +4,7 @@ title: '算法训练 1 leetCode'
 subtitle: '15331404 张益强'
 date: 2018-03-16
  
-cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg'
+cover: 'https://leetcode.com/static/images/LeetCode_Sharing.png'
 tags: 算法 LeetCode
 ---
 
