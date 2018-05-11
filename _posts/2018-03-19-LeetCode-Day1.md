@@ -21,7 +21,9 @@ For example:
 
 There are a total of 2 courses to take. To take course 1 you should have finished course 0. So it is possible.
 
-**题目大意就是，有一组边，[a，b]，要经过b，必须先经过a，判断是否没有冲突，可以想象为判断树中是否不存在环，如果存在，则可能性为false，不存在环，则为true。**
+```**题目大意就是，有一组边，[a，b]，要经过b，必须先经过a，判断是否没有冲突，可以想象为判断树中是否不存在环，如果存在，则可能性为false，不存在环，则为true。**
+
+```
 
 
 > 拓扑排序
