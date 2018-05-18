@@ -153,7 +153,7 @@ public:
 
    对第一行特殊处理，然后每一个cycle，一行会添加两个数。求出这两个数的规律即可。
 
-   ```c
+   ```javascript
    j = i + cycle*k, k = 0, 1, 2, ...    //the current row is i, the index of //the first element is j:
    secondJ = (j - i) + cycle - i // index of the second element is secondJ
    ```
