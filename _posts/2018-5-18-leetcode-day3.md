@@ -14,7 +14,7 @@ tags: LeetCode C++ algorithm
 ## 题目描述
 The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
-```c
+```javascript
 P   A   H   N
 A P L S I I G
 Y   I   R
@@ -23,18 +23,18 @@ And then read line by line: "PAHNAPLSIIGYIR"
 
 Write the code that will take a string and make this conversion given a number of rows:
 
-```c
+```javascript
 string convert(string s, int numRows);
 ```
 Example 1:
 
-```c
+```javascript
 Input: s = "PAYPALISHIRING", numRows = 3
 Output: "PAHNAPLSIIGYIR"
 ```
 Example 2:
 
-```c
+```javascript
 Input: s = "PAYPALISHIRING", numRows = 4
 Output: "PINALSIGYAHRPI"
 Explanation:
@@ -69,7 +69,7 @@ nRows=4变为了0615724839
 
 ## 解答
 
-```c
+```javascript
 class Solution {
 public:
     string convert(string s, int nRows) {
@@ -114,7 +114,7 @@ public:
 
 1. 为每一行构造一个相应的string，往里面添加元素，所有将这些string   append起来。必要点：清空string数组。
 
-   ```c
+   ```javascript
    string convert(string s, int nRows) {
        
        if (nRows <= 1)
@@ -157,3 +157,4 @@ public:
    j = i + cycle*k, k = 0, 1, 2, ...    //the current row is i, the index of //the first element is j:
    secondJ = (j - i) + cycle - i // index of the second element is secondJ
    ```
+
