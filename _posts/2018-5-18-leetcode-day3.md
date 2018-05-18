@@ -65,6 +65,8 @@ nRows=4变为了0615724839
 (2)中间行的间隔是周期性的,第i行的间隔是: interval–2i,  2i,  interval–2i, 2i, interval–2i, 2i, …
 
 
+
+
 ## 解答
 
 ```c
@@ -108,4 +110,50 @@ public:
 };
 ```
 
+## 大神解答
 
+1. 为每一行构造一个相应的string，往里面添加元素，所有将这些string   append起来。必要点：清空string数组。
+
+   ```c
+   string convert(string s, int nRows) {
+       
+       if (nRows <= 1)
+           return s;
+   
+       const int len = (int)s.length();
+       string *str = new string[nRows];
+   
+       int row = 0, step = 1;
+       for (int i = 0; i < len; ++i)
+       {
+           str[row].push_back(s[i]);
+   
+           if (row == 0)
+               step = 1;
+           else if (row == nRows - 1)
+               step = -1;
+   
+           row += step;
+       }
+   
+       s.clear();
+       for (int j = 0; j < nRows; ++j)
+       {
+           s.append(str[j]);
+       }
+   
+       delete[] str;
+       return s;
+   }
+   ```
+
+   
+
+2. 还有一个循环这种想法的，一个cycle = 2*nRows - 2
+
+   对第一行特殊处理，然后每一个cycle，一行会添加两个数。求出这两个数的规律即可。
+
+   ```c
+   j = i + cycle*k, k = 0, 1, 2, ...    //the current row is i, the index of //the first element is j:
+   secondJ = (j - i) + cycle - i // index of the second element is secondJ
+   ```
