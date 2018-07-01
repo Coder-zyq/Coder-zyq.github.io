@@ -63,7 +63,7 @@ tags: 系统分析与设计
 
 
 
-![1530429206853](../assets//img/1530429206853.png)
+![](https://ws1.sinaimg.cn/large/c3af64f1gy1fsue8el969j21js0yojw3.jpg)
 
 
 
